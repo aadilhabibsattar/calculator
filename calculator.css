@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "42dot Sans", serif;
+    background-color: rgb(36, 37, 53);
+}
+
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.display {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 0px 15px;
+    text-align: right;
+    margin: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.js-calculation {
+    font-size: 45px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    overflow-x: auto;
+}
+
+.calculator {
+    width: 18.5rem;
+    background-color: black;
+    padding: 25px 15px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.functional-button, .calc-button, .operator {
+    border: none;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 30px;
+    margin: 0px 5px;
+    color: white;
+    font-family: "42dot Sans", serif;
+}
+
+.functional-button:hover, .calc-button:hover, .operator:hover {
+    opacity: 0.7;
+}
+
+.operator {
+    background-color: #fc7a00;
+}
+
+.calc-button {
+    background-color: #292929;
+}
+
+.functional-button {
+    vertical-align: middle;
+    background-color: #4d4d4d;
+    font-size: 20px;
+    font-weight: 500;
+}
