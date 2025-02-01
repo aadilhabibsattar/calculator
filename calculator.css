@@ -3,7 +3,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: "42dot Sans", serif;
+    font-family: "42dot Sans", sans-serif;
     background-color: rgb(36, 37, 53);
 }
 
@@ -20,10 +20,15 @@ body {
     padding: 0px 15px;
     text-align: right;
     margin: 0;
-    height: 80px;
+    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    background-color: rgb(10, 10, 10);
+    border-radius: 15px;
+
+    scrollbar-width: thin;
+    scrollbar-color: #888 #1a1a1a;
 }
 .js-calculation {
     font-size: 45px;
@@ -36,9 +41,7 @@ body {
 .calculator {
     width: 18.5rem;
     background-color: black;
-    padding: 25px 15px;
-    padding-bottom: 25px;
-    padding-top: 25px;
+    padding: 25px 15px;    
     display: inline-block;
     border-radius: 15px;
 }
@@ -71,4 +74,10 @@ body {
     background-color: #4d4d4d;
     font-size: 20px;
     font-weight: 500;
+}
+
+.button-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
 }
